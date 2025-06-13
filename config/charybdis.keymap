@@ -84,9 +84,9 @@ keymap {
     Symbol {
         label = "Symbol";
         bindings = <
-            &trans &kp TILDE &kp AMPS &kp STAR &kp LPAR &kp RPAR     &kp LBRC &kp RBRC &kp PIPE &kp PLUS &kp EQUAL &trans
-            &trans &kp MINUS &kp DLLR &kp PRCNT &kp CARET &kp UNDERSCORE   &kp LBRACE &kp RBRACE &kp DQT &kp APOS &kp HASH &trans
-            &trans &kp EXCL &kp AT &kp QUESTION &kp SLASH &kp COLON       &kp SEMICOLON &kp GRAVE &kp LESS &kp GREATER &kp BSLH &trans
+            &trans &kp TILDE &kp AMPS &kp STAR &trans &kp PLUS     &trans &kp LBRC &kp RBRC &trans &kp PIPE &trans
+            &trans &kp MINUS &kp DLLR &kp PRCNT &kp CARET &kp EQUAL   &trans &kp LPAR &kp RPAR &kp DQT &kp APOS &trans
+            &trans &kp UNDER &kp EXCL &kp AT &kp HASH &kp GRAVE       &trans &kp LBKT &kp RBKT &trans &kp BSLH &trans
                           &trans &trans &trans                         &trans &trans
         >;
     };
